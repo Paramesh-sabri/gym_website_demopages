@@ -1,0 +1,247 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #222;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: #fff;
+    margin: 0 1rem;
+}
+
+.navbar a:hover {
+    color: #f0a500;
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/hero.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f0f0f0;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero a {
+    padding: 0.75rem 2rem;
+    background-color: #f0a500;
+    color: #222;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.hero a:hover {
+    background-color: #222;
+    color: #f0a500;
+}
+
+/* Main Content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* About Section */
+.about img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+/* Form Styles */
+form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form .form-group {
+    margin-bottom: 1rem;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 0.75rem 2rem;
+    background-color: #f0a500;
+    color: #222;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #222;
+    color: #f0a500;
+}
+
+/* Subscription Cards */
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    width: 30%;
+    margin-bottom: 70px;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card h5 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.card p {
+    margin-bottom: 1rem;
+}
+
+.card button {
+    padding: 0.75rem 2rem;
+    background-color: #f0a500;
+    color: #222;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #222;
+    color: #f0a500;
+}
+
+/* Footer */
+.footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.abt{
+    text-align: justify;
+    border-radius: 3px;
+    box-shadow: 10px 10px 10px black;
+    margin-bottom: 45px;
+    padding: 25px;
+    background-color: #484848;
+    word-spacing: 3px;
+    line-height: 25px;
+    color: #f0f0f0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contactform{
+    background: none;
+    border: 1px solid #f0f0f0;
+    width: 100%;
+    display: block;
+}
+.contacth1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(71, 70, 70);
+    border: 0.5px solid rgb(108, 94, 94);
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 2px rgb(50, 49, 49);
+    display: flex;
+    justify-content: center;
+
+}
+.contactbody{
+    display: flex;
+    justify-content: center;
+    background-image: url('images/contact.jpeg');
+
+}
+.headercontact{
+    display: flex;
+}
+.footer contact{
+    width: 100%;
+    display: flex;
+}
+
+.footer about{
+    
+    position: sticky;
+}
+
+.signinform{
+    margin-bottom: 70px;
+}
+.aboutcontent{
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px;
+    background-image: url('images/gym.jpeg');
+
+}
+.aboutush1{
+    color: #f0f0f0;
+}
